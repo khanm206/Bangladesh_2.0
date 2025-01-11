@@ -36,17 +36,13 @@ nav{
 nav>p{
     color: green;
     font-weight: 500;
-    font-size: large;
+    font-size: x-large;
 }
 
 nav>p>span{
     color: red;
 }
 
-nav>button>a{
-    text-decoration: none;
-    color: green;
-}
 
 nav>button{
     color: green;
@@ -59,6 +55,11 @@ padding: 5px 20px ;
 font-size:16px;
 }
 
+nav>button:hover{
+    background: rgb(0, 106, 80);
+    color: white;
+    cursor: pointer;
+}
 
 #hero{
 height: 500px;
@@ -95,6 +96,7 @@ padding: 15px;
 .btn:hover{
 background: rgba(0, 106, 80, 0.500);
 color: black;
+cursor: pointer;
 }
 
 .sectionHead{
@@ -227,6 +229,11 @@ font-size: 28.5px;
 font-weight: 700;
 }
 
+.newsImg{
+    width: 408px;
+    height: 306px;
+}
+
 #donate{
     text-align: center;
 }
@@ -246,10 +253,15 @@ background: rgb(255, 255, 255);
 
 .donateCard:hover{
     background: rgb(198, 228, 214);
+    cursor: pointer;
 }
 
 #donate200{
     background: rgb(198, 228, 214);
+}
+
+#donate200:hover>h2{
+    color: green;
 }
 
 .donateCard>h2{
@@ -333,4 +345,52 @@ footer>hr{
     display: flex;
     justify-content: center;
     gap: 15px;
+}
+
+.opinionTable{
+    border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 20px;
+}
+
+td{
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(255, 255, 255, 0.1);
+color: rgb(14, 14, 14);
+font-size: 14px;
+font-weight: 600;
+padding-left: 10px;
+}
+
+th{
+    text-align: left;
+    padding-left: 10px;
+}
+
+table{
+    border-collapse:collapse;
+    width: 100%;
+    height: 300px;
+    
+}
+
+select{
+text-align: center;;
+border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+background: rgb(198, 228, 214);
+padding: 5px;
+}
+
+.dropdown{
+    text-align: center;
+    padding: 0;
+}
+
+.tableHead{
+    background: rgb(198, 228, 214);
+}
+
+.socialIcons:hover{
+    cursor: pointer;
 }
