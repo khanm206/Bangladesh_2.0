@@ -217,3 +217,53 @@ margin: 20px 0px;
 font-size: 28.5px;
 font-weight: 700;
 }
+
+#donate{
+    text-align: center;
+}
+
+#donateCards{
+    display: flex;
+    gap:21px;
+    justify-content: center;
+}
+
+.donateCard{
+padding: 0 25px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+
+.donateCard:hover{
+    background: rgb(198, 228, 214);
+}
+
+#donate200{
+    background: rgb(198, 228, 214);
+}
+
+.donateCard>h2{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 35px;
+font-weight: 700;
+}
+
+.donateAmount{
+    width: fit-content;
+    margin: auto;
+}
+
+.donateAmount>input{
+ border: 1px solid rgba(14, 14, 14, 0.15);
+ border-radius: 5px;
+ padding: 15px;
+ text-align: center;
+background: rgb(255, 255, 255);
+width:100%;
+margin-top: 30px;
+margin-bottom: 20px;
+color: rgba(14, 14, 14, 0.3);
+font-size: 18px;
+font-weight: 400;
+}
