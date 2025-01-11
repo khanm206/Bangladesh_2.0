@@ -6,6 +6,11 @@
 
 body{
     background-color:ghostwhite ;
+    margin: 0 50px;
+}
+
+section{
+    margin-bottom: 100px;
 }
 
 nav{
@@ -38,6 +43,82 @@ nav>button{
     width: fit-content;
     height: fit-content;
 padding: 5px 20px ;
-font-size:small;
-    
+font-size:16px;
+}
+
+
+#hero{
+height: 500px;
+width: auto;
+border-radius: 24px;
+background: rgb(198, 228, 214);
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+#heroText>p{
+color: rgba(14, 14, 14, 0.5);
+font-size: 21px;
+font-weight: 500;
+margin-bottom: -40px;
+}
+
+#heroText>h1{
+width: 553px;
+font-size: 50px;
+}
+
+.btn{
+border-radius: 8px;
+background: rgb(0, 106, 80);
+width: 240px;
+height: 50px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+}
+
+.btn:hover{
+background: rgba(0, 106, 80, 0.459);
+color: black;
+}
+
+#pillars>h2{
+    color: rgb(14, 14, 14);
+font-size: 35px;
+font-weight: 700;
+}
+
+.pillarsCards{
+    display: flex;
+  justify-content: space-between;
+}
+
+
+.pillarsCard{
+    background-color: white;
+    width: 268px;
+    height: auto;
+    padding: 20px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+}
+
+.cardImg{
+    width: 43px;
+    height: 47px;
+    margin-bottom: 10px;
+}
+
+.cardHead{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cardPara{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
 }
