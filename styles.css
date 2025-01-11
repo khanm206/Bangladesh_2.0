@@ -5,8 +5,11 @@
 }
 
 body{
-    background:rgb(245, 245, 245); ;
     margin: 0 50px;
+}
+
+main{
+    background:rgb(245, 245, 245);
 }
 
 section{
@@ -252,6 +255,7 @@ font-weight: 700;
 .donateAmount{
     width: fit-content;
     margin: auto;
+    text-align: center;
 }
 
 .donateAmount>input{
@@ -260,10 +264,45 @@ font-weight: 700;
  padding: 15px;
  text-align: center;
 background: rgb(255, 255, 255);
-width:100%;
+width:95%;
 margin-top: 30px;
 margin-bottom: 20px;
 color: rgba(14, 14, 14, 0.3);
 font-size: 18px;
 font-weight: 400;
+}
+
+#newsletter{
+    text-align: center;
+    border-radius: 24px;
+background: rgb(198, 228, 214);
+padding: 70px 90px;
+}
+
+#subscribe{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#subscribe>input{
+    border: 0;
+    border-radius: 8px 0px 0px 8px;
+background: rgb(255, 255, 255);
+padding: 15px;
+width: 100%;
+color: rgba(14, 14, 14, 0.3);
+font-size: 16px;
+font-weight: 400;
+}
+
+#subscribe>button{
+    border-radius: 0px 8px 8px 0px;
+    border: 0;
+}
+
+#newsletter>p{
+width: 50%;
+margin: auto;
 }
