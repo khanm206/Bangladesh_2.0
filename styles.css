@@ -13,6 +13,10 @@ section{
     margin-bottom: 100px;
 }
 
+#navBar{
+    margin-bottom: 0;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -73,24 +77,24 @@ font-size: 50px;
 .btn{
 border-radius: 8px;
 background: rgb(0, 106, 80);
-width: 240px;
-height: 50px;
 color: rgb(255, 255, 255);
 font-size: 16px;
+border: 0;
+padding: 15px;
 }
 
 .btn:hover{
-background: rgba(0, 106, 80, 0.459);
+background: rgba(0, 106, 80, 0.500);
 color: black;
 }
 
-#pillars>h2{
+.sectionHead{
     color: rgb(14, 14, 14);
 font-size: 35px;
 font-weight: 700;
 }
 
-.pillarsCards{
+.cards{
     display: flex;
   justify-content: space-between;
 }
@@ -121,4 +125,70 @@ border-radius: 16px;
     color: rgba(14, 14, 14, 0.7);
     font-size: 14px;
     font-weight: 400;
+}
+
+.visionCard{
+    width: 365px;
+    padding: 25px;
+}
+
+#vCard1{
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+}
+
+#btn1{
+    border-radius: 8px;
+background: rgb(84, 144, 245);
+}
+
+#btn1:hover{
+    background: rgba(84, 144, 245, 0.500);
+}
+
+#vCard2{
+border-radius: 16px;
+ background: rgb(198, 228, 214);
+}
+
+#btn2{
+    border-radius: 8px;
+background: rgb(9, 161, 92);
+}
+
+#btn2:hover{
+    background: rgba(9, 161, 92, 0.500);;
+}
+
+#vCard3{
+border-radius: 16px;
+background: rgb(247, 235, 207);
+}
+#btn3{
+    border-radius: 8px;
+background: rgb(255, 194, 57);
+}
+
+#btn3:hover{
+    background: rgb(255, 194, 57, 0.500);
+}
+
+#yunusSays{
+    width: auto;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 42px 21px;
+background-image: url("assets/quote-bg.png");
+background-repeat: no-repeat;
+background-position: 20px 20px;
+}
+
+#yunusPara{
+    color: rgba(14, 14, 14, 0.8);
+}
+
+#yunusPosition{
+    color: rgba(14, 14, 14, 0.6);
+    line-height: 0;
 }
