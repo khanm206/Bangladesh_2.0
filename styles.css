@@ -5,11 +5,16 @@
 }
 
 body{
-    margin: 0 50px;
+    background:rgb(245, 245, 245);
+    margin: 0;
 }
 
 main{
-    background:rgb(245, 245, 245);
+    margin: 0 50px;
+}
+
+header{
+    margin: 0 50px;
 }
 
 section{
@@ -18,6 +23,7 @@ section{
 
 #navBar{
     margin-bottom: 0;
+    padding: 10px 0px;
 }
 
 nav{
@@ -276,7 +282,7 @@ font-weight: 400;
     text-align: center;
     border-radius: 24px;
 background: rgb(198, 228, 214);
-padding: 70px 90px;
+padding: 70px 95px 70px 90px;
 }
 
 #subscribe{
@@ -305,4 +311,26 @@ font-weight: 400;
 #newsletter>p{
 width: 50%;
 margin: auto;
+}
+
+footer{
+    background: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px;
+}
+footer>h1{
+    color: rgb(14, 14, 14);
+font-size: 28px;
+font-weight: 700;
+}
+
+footer>hr{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin: 0 10%;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
